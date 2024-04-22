@@ -1,8 +1,6 @@
 import {useState, useEffect} from "react";
 import Repos from "../components/Repos";
 import Pagination from "../components/Pagination";
-import SearchAndFilter from "../components/SearchBar";
-import SearchResults from "../components/SearchResults";
 
 function RepoDetails() {
   const [repos, setRepos] = useState([]);
