@@ -33,7 +33,6 @@ function RepoDetails() {
 
   return (
     <>
-    <SearchAndFilter repos={repos} />
     <Repos loading={loading} repos={currentRepos} />
     <Pagination reposPerPage={reposPerPage} totalRepos={repos.length} paginate={paginate} />
     </>
