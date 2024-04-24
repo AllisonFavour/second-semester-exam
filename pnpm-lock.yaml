@@ -17,6 +17,9 @@ dependencies:
   axios:
     specifier: ^1.6.8
     version: 1.6.8
+  canvas-confetti:
+    specifier: ^1.9.2
+    version: 1.9.2
   framer-motion:
     specifier: ^11.1.1
     version: 11.1.1(react-dom@18.2.0)(react@18.2.0)
@@ -2250,6 +2253,10 @@ packages:
   /caniuse-lite@1.0.30001610:
     resolution: {integrity: sha512-QFutAY4NgaelojVMjY63o6XlZyORPaLfyMnsl3HgnWdJUcX6K0oaJymHjH8PT5Gk7sTm8rvC/c5COUQKXqmOMA==}
     dev: true
+
+  /canvas-confetti@1.9.2:
+    resolution: {integrity: sha512-6Xi7aHHzKwxZsem4mCKoqP6YwUG3HamaHHAlz1hTNQPCqXhARFpSXnkC9TWlahHY5CG6hSL5XexNjxK8irVErg==}
+    dev: false
 
   /chalk@2.4.2:
     resolution: {integrity: sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==}

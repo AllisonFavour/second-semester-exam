@@ -10,7 +10,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
      <BrowserRouter>
      <React.StrictMode>
-      <ErrorBoundary fallback={<div>Oops! Something went wrong</div>}>
+      <ErrorBoundary fallback={<div style={{textAlign: 'center'}}>Oops! Something went wrong</div>}>
         <App />
       </ErrorBoundary>
      </React.StrictMode>
